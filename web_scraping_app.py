@@ -7,7 +7,7 @@ import numpy as np
 # Load the ML model
 @st.cache_resource
 def load_model():
-    return joblib.load("C:\\Users\\pouru\\Downloads\\nifty50_model_new.pkl")
+    return joblib.load("nifty50_model_new.pkl")
 
 model = load_model()
 
