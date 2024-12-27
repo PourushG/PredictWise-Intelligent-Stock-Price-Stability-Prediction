@@ -1,3 +1,4 @@
+distutils
 streamlit==1.20.0
 yfinance==0.2.22
 joblib==1.2.0
